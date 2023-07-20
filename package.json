@@ -1,0 +1,14 @@
+{
+    "name": "mern-app",
+    "version": "1.0.0",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "heroku/create-react-app"
+      }
+    ]
+
+  }
+  
