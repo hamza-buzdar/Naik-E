@@ -64,7 +64,7 @@ const Chats = () => {
                 <td>{currentUser.isNeedy ? c.donorId : c.needyId}</td>
                 <td>
                   <Link to={`/chat/${c.id}`} className="link">
-                    {c?.lastMessage?.substring(0, 100)}...
+                    {c?.lastMessage?.substring(0, 100)}...Click Here For Chat
                   </Link>
                 </td>
                 <td>{moment(c.updatedAt).fromNow()}</td>

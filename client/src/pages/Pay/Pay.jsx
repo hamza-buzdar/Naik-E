@@ -38,6 +38,7 @@ const Pay = () => {
   };
 
   return <div className="pay">
+    <h1 style={{color:'GrayText', marginBottom:'50px', marginTop:'50px'}}>Checkout Form</h1>
     {clientSecret && (
         <Elements options={options} stripe={stripePromise}>
           <CheckoutForm />
